@@ -1,5 +1,18 @@
 env
 db.*
-*.sqlite
+*.sqlite*
+
+## From https://github.com/django/django/blob/master/.gitignore
+*.egg-info
+*.pot
+*.py[co]
 __pycache__
-*.pyc
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
